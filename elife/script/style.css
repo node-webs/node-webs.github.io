@@ -216,3 +216,109 @@ nav {
         transform: rotate(0deg);
     }
 }
+
+/* Product Category Section */
+
+#product-category-container {
+    margin-top: 45px;
+}
+
+#product-category-text {
+    display: flex;
+    place-items: center;
+
+    margin-bottom: 45px;
+}
+
+.blue-line {
+    width: 15px;
+    height: 40px;
+    margin-right: 15px;
+    background-color: #3b71dc;
+    border-radius: 20px;
+
+    display: inline-block;
+    /*
+        인라인 요소를 블록 계열로 변경 (너비와 높이 적용 가능해짐)
+        span 테그는  기본적으로 인라인(Inline) 요소가 기본값이라서
+        width, height를 지정해도 적용이 안됨. 그래서 display: inline-block;을 해줘야 함.
+    */
+}
+
+.section-category-text {
+    color: rgb(64, 64, 64);
+    font-size: 25px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+}
+
+#product-category-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    flex-wrap: wrap; /* 화면이 작아지면, 자동으로 줄바꿈 */
+}
+
+.product-category {
+    width: 375px;
+    height: 100px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: start; /* 왼쪽에서 부터 시작 */
+    /* 중앙 수평으로 맞춤 */
+    justify-content: center;
+    place-items: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 30px rgb(129, 129, 129, 0.1); /* 그림자 효과 */
+    transition: 0.3s ease-in-out; /* 마우스 위로 올렸을 때, 효과 주기위해서 */
+}
+
+.product-category:hover {
+    transform: scale(1.1); /* 1.1배 확대 */
+    cursor: pointer;
+}
+
+.product-category-image-section {
+    background-color: rgb(231, 238, 252);
+
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+    padding: 10px;
+    width: calc(120px - 20px);
+    /* 패딩의 왼쪽과 오른쪽을 빼준다. (calc(140px - 20px) = 120px) */
+    height: calc(100% - 20px);
+    /* 높이값을 100%로 설정, 위에서 100px로 설정했기 때문에, 100px이 된다. (calc(100% - ) = 80px) */
+}
+
+.product-category-image-section img {
+    max-width: 97%;
+    max-height: 97%;
+    /* 박스 크기의 97%로 설정, 이미지가 박스 크기를 넘어가지 않게 하기 위해서 */
+    object-fit: contain; /* 이미지 비율 유지 */
+}
+
+.product-category-desc-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    height: 100%;
+    flex-grow: 1; /* 글자 뒤에 남는 나머지 공간을 차지하게 하기 위해서 flex-grow: 1;을 사용 */
+}
+
+.product-category-desc-section .product-category-type {
+    color: rgb(64, 64, 64);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.product-category-desc-section .product-category-number {
+    color: rgb(137, 137, 137);
+    font-size: 15px;
+}
