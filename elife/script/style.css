@@ -322,3 +322,181 @@ nav {
     color: rgb(137, 137, 137);
     font-size: 15px;
 }
+
+/* product-section */
+.product-section {
+    margin-top: 80px;
+    text-align: center; /* 화면 중앙 */
+}
+
+.product-section-top-container {
+    /* 카테고리 제목과 슬라이드 버튼 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* 양쪽 끝으로 배치, 택스트와 버튼 */
+    place-items: center;
+}
+
+.section-category-container {
+    /* 카테고리와 제목 */
+    display: block; /* 위, 아래로 배치 */
+}
+
+.section-category-type {
+    display: flex; /* 왼쪽을 blue-line과 붙이기 위해서 flex 사용 */
+    place-items: center; /* 수직 중앙 정렬 */
+}
+
+.product-section-top-container h1 {
+    color: rgb(64, 64, 64);
+    font-size: 40px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+
+    margin-bottom: 40px;
+}
+
+.slideshow-buttons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.slideshow-button {
+    background-color: rgb(237, 237, 237);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+    /* <, > 정중앙 배치 */
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+    box-shadow: 0 2px 15px rgba(71, 71, 71, 0.1);
+}
+
+.prev-button {
+    margin-right: 15px;
+}
+
+/* 카드 */
+.product-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: start; /* 왼쪽에서 부터 시작 */
+
+}
+
+.product-cards-container ul {
+    display: flex;
+    flex-direction: row;  /* 한 줄로 정렬 */
+    flex-wrap: wrap;
+    /* 플렉스 아이템들이 플렉스 컨테이너의 한 줄을 초과할 경우 넘치지 않고 감싸서(wrap) 다음 줄로 넘어가도록 설정 */
+
+    list-style: none;
+}
+
+.product-cards-container .product-card {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(71, 71, 71, 0.1);
+    text-align: center;
+    overflow: hidden;    
+    transition: 0.8s ease-in-out; /* 마우스 위로 올렸을 때, 효과 주기위해서 */
+
+    width: 260px;
+    height: 379px;
+}
+
+.product-cards-container .product-card:hover {
+    transform: scale(1.1);
+}
+
+.product-image-container {
+    background-color: rgb(231, 238, 252);
+    padding: 20px;
+    height: 198px;
+
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+    position: relative; /* 하트 이미지를 중간에서 위로 옮기기 위해서 */
+    /*
+        이렇게 position: relative;를 해주면, 하트 이미지의 위치를 상대적으로 바꿀 수 있음.
+        (absolute로 바꿔도 됨), 상대적 위치의 기준을 product-image-container로 지정
+        항상 product-image-container의 오른쪽 위에 하트가 위치하게 됨
+    */
+}
+
+.product-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product-image-container .heart-button {
+    background-color: white;
+    color: rgb(64, 64, 64);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 8px;
+    cursor: pointer;
+
+    position: absolute; /* 하트 이미지를 중간에서 위로 옮김 */
+    top: 10px;
+    right: 10px;
+    /*
+        위치는 상대적인 값이기 때문에 마우스를 올리기 전에서 문서의 오른쪽 위에 위치함.
+        그리고, 마우스를 카드 위에 올리면, 하트가 카드 오른쪽 위로 올라오게 됨
+        카드 위에서 마우스가 없어지면, 하트는 다시 문서의 오른쪽 위로 돌아감
+    */
+    
+}
+
+/* 하트 버튼 색깔 바꾸기 */
+.product-image-container .heart-button svg {
+    fill: none;           /* 내부 바탕색: 흰색 */
+    stroke: rgb(64, 64, 64) !important;          /* 테두리 색상: 회색 */
+    stroke-width: 0.5px;                /* 테두리 두께 */
+    stroke-linejoin: round !important; /* ★ 모서리를 둥글게 연결 (찌그러짐 방지) */
+    stroke-linecap: round !important;  /* ★ 선의 끝모양을 부드럽게 처리 */
+}
+
+/* .product-image-container .heart-button svg path {
+    실제 하트 외곽선(면의 테두리)에 stroke를 적용하고 두께 설정
+    stroke: rgb(64, 64, 64);
+    stroke-width: 0.5px; 부트스트랩 아이콘은 면이라 두께를 얇게 주어야 이쁩니다 
+} */
+
+/* 하트 버튼 색깔 바꾸기 */
+/* .product-image-container .heart-button svg {
+    HTML 내부의 fill="currentColor" 속성을 무시하도록 강제 설정
+    fill: red !important; 
+} */
+
+.product-text-container h1 {
+    color: #333;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.product-text-container p {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.product-text-container .blue-button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}

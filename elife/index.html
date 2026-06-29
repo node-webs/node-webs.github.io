@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <!-- 8:00 css 파일 -->
     <meta charset="UTF-8">
@@ -43,6 +43,7 @@
     </nav>
     <!-- Product  -->
     <div id="product-page-body">
+        <!-- TOP SECTION -->
         <div id="product-top-container">
             <div id="product-top-wrapper">
                 <div id="product-top-text-section">
@@ -54,102 +55,952 @@
                     <button class="blue-button">Shop Now</button>
                 </div>
                 <div id="product-top-image-section">
-                    <img src="images/product page/top_image.png" alt="">
+                    <img src="images/product-page/top_image.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Product Categories -->
-    <div id="product-category-container">
-        <div id="product-category-text">
-            <span class="blue-line"></span> <!-- 카테고리 점표시 -->
-            <span class="section-category-text">Categories</span> <!-- 카테고리 이름 -->
+    
+        <!-- Product Categories -->
+        <div id="product-category-container">
+            <div id="product-category-text">
+                <span class="blue-line"></span> <!-- 카테고리 점표시 -->
+                <span class="section-category-text">Categories</span> <!-- 카테고리 이름 -->
+            </div>
+            <div id="product-category-wrapper">
+                <div class="product-category">
+                    <div class="product-category-image-section">
+                        <img src="images/product-page/product-category/all.png" alt="Image Collection Containing All Categories">
+                    </div>
+                    <div class="product-category-desc-section">
+                        <span class="product-category-type">
+                            All
+                        </span>
+                        <span class="product-category-number">
+                            60 items
+                        </span>
+                    </div>
+                </div>
+
+                <div class="product-category">
+                    <div class="product-category-image-section">
+                    </div>
+                    <div class="product-category-desc-section">
+                        <span class="product-category-type">
+                            Headphones
+                        </span>
+                        <span class="product-category-number">
+                            12 items
+                        </span>
+                    </div>
+                </div>
+
+                <div class="product-category">
+                    <div class="product-category-image-section">
+                        <img src="images/product-page/product-category/watch.png" alt="Image Collection Containing Smartwatch">
+                    </div>
+                    <div class="product-category-desc-section">
+                        <span class="product-category-type">
+                            Smartwatch
+                        </span>
+                        <span class="product-category-number">
+                            12 items
+                        </span>
+                    </div>
+                </div>
+
+                <div class="product-category">
+                    <div class="product-category-image-section">
+                        <img src="images/product-page/product-category/phone.png" alt="Image Collection Containing Mobile">
+                    </div>
+                    <div class="product-category-desc-section">
+                        <span class="product-category-type">
+                            Mobile
+                        </span>
+                        <span class="product-category-number">
+                            12 items
+                        </span>
+                    </div>
+                </div>
+
+                <div class="product-category">
+                    <div class="product-category-image-section">
+                        <img src="images/product-page/product-category/ipad.png" alt="Image Collection Containing Tablet">
+                    </div>
+                    <div class="product-category-desc-section">
+                        <span class="product-category-type">
+                            Tablet
+                        </span>
+                        <span class="product-category-number">
+                            12 items
+                        </span>
+                    </div>
+                </div>
+
+                <div class="product-category">
+                    <div class="product-category-image-section">
+                        <img src="images/product-page/product-category/laptop.png" alt="Image Collection Containing Laptop">
+                    </div>
+                    <div class="product-category-desc-section">
+                        <span class="product-category-type">
+                            Laptop
+                        </span>
+                        <span class="product-category-number">
+                            12 items
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="product-category-wrapper">
-            <div class="product-category">
-                <div class="product-category-image-section">
-                    <img src="images/product page/product category/all.png" alt="Image Collection Containing All Categories">
+        <!-- PRODUCT CARDS/SLIDESHOW -->
+
+        <!-- "ALL" SECTION -->
+        <div class="product-section" id="product-section-all">
+            <!-- 카테고리 제목과 슬라이드 버튼 -->
+            <div class="product-section-top-container">
+                <div class="section-category-container">
+                    <div class="section-category-type">
+                        <span class="blue-line"></span>
+                        <span class="section-category-text">All Electronics</span>
+                    </div>
+                    <h1>Explore Best Sellers</h1>
                 </div>
-                <div class="product-category-desc-section">
-                    <span class="product-category-type">
-                        All
-                    </span>
-                    <span class="product-category-number">
-                        60 items
-                    </span>
+
+                <div class="slideshow-buttons-container top" data-slideshow="all">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
                 </div>
             </div>
 
-            <div class="product-category">
-                <div class="product-category-image-section">
-                    <img src="images/product page/product category/headphone.png" alt="Image Collection Containing Headphones">
-                </div>
-                <div class="product-category-desc-section">
-                    <span class="product-category-type">
-                        Headphones
-                    </span>
-                    <span class="product-category-number">
-                        12 items
-                    </span>
-                </div>
+            <!-- 카드 -->
+            <div class="product-cards-container">
+                <ul>
+                    <!-- card #1 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/headphone/01.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Navy Headphones</h1>
+                            <p>$87.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #2 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/laptop/03.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Turquoise Laptop</h1>
+                            <p>$249.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #3 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/mobile/03.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Skyblue Phone</h1>
+                            <p>$149.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #4 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/tablet/01.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Lead Tablet</h1>
+                            <p>$120.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #5 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/headphone/06.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Golden Headphones</h1>
+                            <p>$130.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #6 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/laptop/02.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Fire Laptop</h1>
+                            <p>$219.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #7 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/mobile/01.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Sandy Phone</h1>
+                            <p>$135.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #8 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/tablet/02.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Sandy Tablet</h1>
+                            <p>$119.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #9 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/headphone/03.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Candy Headphones</h1>
+                            <p>$88.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #10 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/laptop/11.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Coral Laptop</h1>
+                            <p>$255.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #11 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/mobile/04.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Mauve Phone</h1>
+                            <p>$189.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <!-- card #12 -->
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/collection/tablet/03.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg xmlns="http://w3.org" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Lilac Tablet</h1>
+                            <p>$135.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="product-category">
-                <div class="product-category-image-section">
-                    <img src="images/product page/product category/watch.png" alt="Image Collection Containing Smartwatch">
+            <div class="slideshow-buttons-container bottom" data-slideshow="all">
+                <button class="slideshow-button prev-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+                <button class="slideshow-button next-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+            </div>
+        </div> <!-- END OF "ALL" SECTION -->
+
+        <!-- HEADPHONES SECTION -->
+        <div class="product-section" id="product-section-headphones">
+            <div class="product-section-top-container">
+                <div class="section-category-container">
+                    <div class="section-category-type">
+                        <span class="blue-line"></span>
+                        <span class="section-category-text">Headphones</span>
+                    </div>
+                    <h1>Discover Our Headphones</h1>
                 </div>
-                <div class="product-category-desc-section">
-                    <span class="product-category-type">
-                        Smartwatch
-                    </span>
-                    <span class="product-category-number">
-                        12 items
-                    </span>
+                <div class="slideshow-buttons-container top" data-slideshow="headphones">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
                 </div>
             </div>
-
-            <div class="product-category">
-                <div class="product-category-image-section">
-                    <img src="images/product page/product category/phone.png" alt="Image Collection Containing Mobile">
-                </div>
-                <div class="product-category-desc-section">
-                    <span class="product-category-type">
-                        Mobile
-                    </span>
-                    <span class="product-category-number">
-                        12 items
-                    </span>
-                </div>
+            
+            <div class="product-cards-container">
+                <ul>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/01.png" alt="Navy Headphones">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Navy Headphones</h1>
+                            <p>$87.99</p>
+                            <button class="blue-button">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/02.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>White Headphones</h1>
+                            <p>$109.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/03.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Candy Headphones</h1>
+                            <p>$88.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/04.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Mauve Headphones</h1>
+                            <p>$95.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/05.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Black Headphones</h1>
+                            <p>$72.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/06.png" alt="Golden Headphones">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Golden Headphones</h1>
+                            <p>$130.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/07.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Olive Headphones</h1>
+                            <p>$110.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/08.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Sour Headphones</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/09.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Bubble Headphones</h1>
+                            <p>$104.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/10.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Koala Headphones</h1>
+                            <p>$79.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/11.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Blue Headphones</h1>
+                            <p>$120.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/headphones/12.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Berry Headphones</h1>
+                            <p>$68.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="product-category">
-                <div class="product-category-image-section">
-                    <img src="images/product page/product category/ipad.png" alt="Image Collection Containing Tablet">
-                </div>
-                <div class="product-category-desc-section">
-                    <span class="product-category-type">
-                        Tablet
-                    </span>
-                    <span class="product-category-number">
-                        12 items
-                    </span>
-                </div>
+            <div class="slideshow-buttons-container bottom" data-slideshow="headphones">
+                <button class="slideshow-button prev-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+                <button class="slideshow-button next-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
             </div>
+        </div> <!-- END OF HEADPHONES COLLECTION -->
 
-            <div class="product-category">
-                <div class="product-category-image-section">
-                    <img src="images/product page/product category/laptop.png" alt="Image Collection Containing Laptop">
+        <!-- FIRST PROMOTION SECTION -->
+        <div class="promotion-section">
+            <div class="promo-image-container">
+                <img src="images/product-page/featured-categories/WATCH2.png" alt="Collection of Smartwatches">
+            </div>
+            <div class="promo-text-container">
+                <div class="promo-heading">
+                    <span class="blue-line"></span>
+                    <h1>New Collection</h1>
                 </div>
-                <div class="product-category-desc-section">
-                    <span class="product-category-type">
-                        Laptop
-                    </span>
-                    <span class="product-category-number">
-                        12 items
-                    </span>
-                </div>
+                <h2>Explore The World of Advanced Handwear</h2>
+                <p> 
+                    Lorem ipsum dolor sit amet, consectetur elit adipiscing. Donec semper diam nisl, 
+                    a pharetra scelerisqu nibh quis. Ante ipsum vestibulum.
+                </p>
+                <button class="blue-button">
+                    Shop Now
+                </button>
             </div>
         </div>
+        <!-- END OF FIRST PROMOTION SECTION -->
+
+        <!-- SMARTWATCH SECTION -->
+        <div class="product-section" id="product-section-smartwatch">
+            <div class="product-section-top-container">
+                <div class="section-category-container">
+                    <div class="section-category-type">
+                        <span class="blue-line"></span>
+                        <span class="section-category-text">Smartwatch</span>
+                    </div>
+                    <h1>New Handwear Collection</h1>
+                </div>
+                <div class="slideshow-buttons-container top" data-slideshow="smartwatch">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="product-cards-container">
+                <ul>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/01.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Floss Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/02.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Water Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/03.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Peach Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/04.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Bear Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/05.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Beige Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/06.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Creamy Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/07.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Navy Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/08.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Coal Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/09.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Arctic Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/10.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Blush Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/11.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Stony Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/smartwatch/12.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Grassy Smartwatch</h1>
+                            <p>$99.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slideshow-buttons-container bottom" data-slideshow="smartwatch">
+                <button class="slideshow-button prev-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+                <button class="slideshow-button next-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+            </div>
+        </div> <!-- END OF SMARTWATCH COLLECTION -->
+
+        <!-- MOBILE PHONE SECTION -->
+        <div class="product-section" id="product-section-mobile">
+            <div class="product-section-top-container">
+                <div class="section-category-container">
+                    <div class="section-category-type">
+                        <span class="blue-line"></span>
+                        <span class="section-category-text">Mobile</span>
+                    </div>
+                    <h1>Discover Our Mobiles</h1>
+                </div>
+                <div class="slideshow-buttons-container top" data-slideshow="mobile">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="product-cards-container">
+                <ul>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/01.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Sandy Phone</h1>
+                            <p>$135.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/02.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Candyfloss Phone</h1>
+                            <p>$129.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/03.png" alt="Skyblue Phone">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Skyblue Phone</h1>
+                            <p>$149.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/04.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Mauve Phone</h1>
+                            <p>$189.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/05.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Minty Phone</h1>
+                            <p>$100.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/06.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Sunrise Phone</h1>
+                            <p>$91.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/07.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Sunset Phone</h1>
+                            <p>$155.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/08.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Nightsky Phone</h1>
+                            <p>$110.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/09.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Icecream Phone</h1>
+                            <p>$125.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/10.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Vanilla Phone</h1>
+                            <p>$98.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/11.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Snowfall Phone</h1>
+                            <p>$145.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-image-container">
+                            <img src="images/product-page/mobile/12.png" alt="Product 1">
+                            <button class="heart-button">
+                                <svg viewBox="0 0 24 24" width="22px" height="22px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                        </div>
+                        <div class="product-text-container">
+                            <h1>Pitbull Phone</h1>
+                            <p>$139.99</p>
+                            <button class="blue-button">Add To Cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slideshow-buttons-container bottom" data-slideshow="mobile">
+                <button class="slideshow-button prev-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+                <button class="slideshow-button next-button">
+                    <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+            </div>
+        </div> <!-- END OF MOBILE PHONES COLLECTION -->
 
     </div>
 </body>
